@@ -104,7 +104,7 @@ class TicTacToe
   def play
     while over? != true
       turn
-      if won? == true
+      if won? != nil
         winner
       elsif draw? == true
         "It's a cats game!"
