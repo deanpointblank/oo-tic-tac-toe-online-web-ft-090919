@@ -106,8 +106,10 @@ class TicTacToe
       turn
       if won? != nil
         winner
+        exit
       elsif draw? == true
         "It's a cats game!"
+        exit
       end
     end
   end
