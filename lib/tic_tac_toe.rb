@@ -77,6 +77,8 @@ class TicTacToe
           all_O = [position_1, position_2, position_3]
         elsif position_1 == "X" && position_2 == "X" && position_3 == "X"
           all_X = [position_1, position_2, position_3]
+        else
+          nil
         end
     end
   end
