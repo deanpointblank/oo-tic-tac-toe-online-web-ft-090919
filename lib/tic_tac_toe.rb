@@ -100,7 +100,7 @@ class TicTacToe
   end
   
   def play
-    while over? == nil
+    while over? != true
       turn
     end
   end
